@@ -35,14 +35,14 @@ module.exports = {
   },
   homepage : "sealui.com",
   license : "MIT",
-  "engines": {
-    "node": ">= 8.0.0",
-    "npm": ">= 5.0.0"
-  },
   devDependencies : {
     "rimraf": "^2.5.4",
     "cp-cli": "^1.0.2",
     "cross-env": "^3.1.3"
+  },
+  engines: {
+    node: ">= 8.0.0",
+    npm: ">= 5.0.0"
   },
   browserslist: [
     "> 1%",
